@@ -98,7 +98,7 @@ public class SeleniumTest {
 		getToHomePage(driver, baseUrl, expectedHomeTitle);
 		
 		//close browser
-		driver.close();
-		System.exit(0);
+		driver.quit();
+//		System.exit(0);
 	}
 }
